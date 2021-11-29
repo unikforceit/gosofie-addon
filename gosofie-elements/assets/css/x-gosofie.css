@@ -1,0 +1,132 @@
+.gosofie-main-header ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5C6280;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    transition: 0.4s all ease-in-out;
+}
+.gosofie-main-header ul li a:after {
+    left: 0;
+    bottom: -16px;
+    width: 0%;
+    right: 0;
+    content: "";
+    height: 4px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #FFCD1E;
+    transition: 0.4s all ease-in-out;
+}
+.gosofie-main-header ul li a:hover {
+    color: #FFCD1E;
+    background-color: #f5fbff;
+}
+.gosofie-main-header ul li a:hover:after {
+    width: 100%;
+}
+.home-sub-form input[type="email"]{
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 80px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.home-sub-form input[type="submit"]{
+    top: 31px;
+    right: 0px;
+    color: #3D3F42;
+    border: 0;
+    height: 78px;
+    width: 250px;
+    font-weight: 600;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.home-sub-form input[type="email"]::placeholder {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'David Libre';
+    font-size: 18px;
+}
+.service-box .service-icon {
+    background: linear-gradient(66.19deg, #FF7F50 14.11%, #FF6C35 84.57%);
+    box-shadow: 0px 14px 35px rgba(158, 162, 182, 0.6);
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+    color: #fff;
+}
+.service-box {
+    background: #F3F5FC;
+    transition: all 300ms ease-in-out;
+}
+.service-box:hover a, .service-box:hover p{
+    color: #fff;
+}
+.service-box:hover{
+    background: linear-gradient(45.85deg, #02C2A0 -0.72%, #2E0992 92.66%);
+}
+.pricing-btn a {
+    line-height: 52px;
+}
+.pricing-plan:hover{
+    background: linear-gradient(45.85deg, #02C2A0 -0.72%, #2E0992 92.66%);
+
+}
+.pricing-plan, .testimonial-slider{
+    font-family: "Nunito", Sans-serif;
+}
+.pricing-btn a:after {
+    content: ">";
+    height: 54px;
+    width: 30px;
+    background: #FFB200;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 48px;
+    color: #fff;
+    font-size: 18px;
+}
+.testimonial-slider .owl-nav{
+    text-align: center;
+}
+.testimonial-slider .owl-prev{
+    left: 40%;
+}
+.testimonial-slider .owl-prev, .testimonial-slider .owl-next {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    line-height: 52px;
+    text-align: center;
+    position: absolute;
+    border-radius: 100%;
+    bottom: -25%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-sub-form input[type="submit"]{
+        position: relative;
+        height: 55px;
+        width: 200px;
+    }
+    .home-sub-form input[type="email"]{
+        height: 70px;
+    }
+    .home-sub-form {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+}

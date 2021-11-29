@@ -1,0 +1,1 @@
+{"bgcolor":"","enb_share_tag":"1","enb_single_nav":"1","enb_pagination":"1","enb_rpost":"1","enb_authbox":"1","tag_title":"Related tag","share_title":"Social share","related_title":"Related post","auth_title":"Written by","enb_pre":"","preloader":"","prebg":"#fff","header":"366","footer":"375","sidebar":"395"}
